@@ -73,37 +73,4 @@
       }
     </style>
   </head>
-  <body>
-    <div id="message">
-      <h2 align="center">dayoff-API</h2>
-      <h1 align="center">Api untuk mengecek hari libur dan cuti bersama</h1>
-      <br />
-      <h3>Format Response</h3>
-      <p class="grey">
-        { <br />
-        &nbsp;&nbsp;&nbsp;"tanggal": "2023-01-1", <br />
-        &nbsp;&nbsp;&nbsp;"keterangan": "Tahun Baru 2023"
-        <br />
-        &nbsp;&nbsp;&nbsp;"is_cuti": true or false<br>
-        }<br />
-      </p>
-      <h3>Cara Akses API</h3>
-      <p style="background-color: white;">
-        <ul>
-          <li>Mendapatkan data hari libur tahun sekarang <small>/api</small> </li>
-          <li>Mendapatkan data hari libur pada tahun 2020 <small>/api?year=2020</small></li>
-          <li>Mendapatkan data hari libur di bulan 5 pada tahun saat ini <small>/api?month=5</small></li>
-          <li>Mendapatkan data hari libur di bulan 5 pada tahun 2023 <small>/api?month=5&year=2023</small></li>
-        </ul>
-      </p>
-      <h3>Cara Kerja API ini?</h3>
-      <p>
-        API ini mengambil data dari <a href="https://www.tanggalan.com/">tanggalan.com</a> dengan cara di scraping setiap 1 bulan sekali menggunakan github action.
-      </p>
-      <h3>Kontribusi</h3>
-      <p>
-        Jika anda ingin berkontribusi di projek ini silahkan kunjungi repository saya di github <a href="https://github.com/gerinsp/dayoff-API">github.com/gerinsp/dayoff-API</a>
-      </p>
-    </div>
-  </body>
 </html>
