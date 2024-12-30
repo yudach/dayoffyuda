@@ -7,7 +7,7 @@
     "app": "node index.js",
     "dev": "nodemon index.js"
   },
-  "author": "Gerin Sena Pratama",
+  "author": "Updated Yuda",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
