@@ -1,1 +1,1 @@
-Untuk keperluan Absensi PT Password
+Untuk keperluan Absensi
